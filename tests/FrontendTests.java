@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions.*;
 import java.util.Scanner;
@@ -19,9 +20,9 @@ public class FrontendTests {
         
         String output = tester.checkOutput();
         
-        assertTrue(output.contains("Welcome to iSongly!"));
-        assertTrue(output.contains("Enter the filename to load:"));
-        assertTrue(output.contains("Data loaded successfully."));
+        Assertions.assertTrue(output.contains("Welcome to iSongly!"));
+        Assertions.assertTrue(output.contains("Enter the filename to load:"));
+        Assertions.assertTrue(output.contains("Data loaded successfully."));
     }
 
     /**
@@ -39,11 +40,11 @@ public class FrontendTests {
         
         String output = tester.checkOutput();
         
-        assertTrue(output.contains("Enter the minimum Loudness:"));
-        assertTrue(output.contains("Enter the maximum Loudness:"));
-        assertTrue(output.contains("Songs by Loudness:"));
-        assertTrue(output.contains("BO$$"));
-        assertTrue(output.contains("Cake By The Ocean"));
+        Assertions.assertTrue(output.contains("Enter the minimum Loudness:"));
+        Assertions.assertTrue(output.contains("Enter the maximum Loudness:"));
+        Assertions.assertTrue(output.contains("Songs by Loudness:"));
+        Assertions.assertTrue(output.contains("BO$$"));
+        Assertions.assertTrue(output.contains("Cake By The Ocean"));
     }
 
     /**
@@ -61,11 +62,11 @@ public class FrontendTests {
         
         String output = tester.checkOutput();
         
-        assertTrue(output.contains("Enter the minimum Speed threshold"));
-        assertTrue(output.contains("Filter set successfully."));
-        assertTrue(output.contains("The five most Danceable songs are:"));
-        assertTrue(output.contains("A L I E N S"));
-        assertTrue(output.contains("BO$$"));
-        assertTrue(output.contains("Cake By The Ocean"));
+        Assertions.assertTrue(output.contains("Enter the minimum Speed threshold"));
+        Assertions.assertTrue(output.contains("Filter set successfully."));
+        Assertions.assertTrue(output.contains("The five most Danceable songs are:"));
+        Assertions.assertTrue(output.contains("A L I E N S"));
+        Assertions.assertTrue(output.contains("BO$$"));
+        Assertions.assertTrue(output.contains("Cake By The Ocean"));
     }
 }

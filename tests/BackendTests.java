@@ -17,7 +17,7 @@ public class BackendTests {
 
 		// test the readData method
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 			if(!(tree.size() == 600)){
 				Assertions.assertFalse(true);
 			}
@@ -66,7 +66,7 @@ public class BackendTests {
 		ArrayList<String> titles = new ArrayList<>();
 
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 		} catch (IOException e) {
 			System.out.println(e);
 		}
@@ -141,7 +141,7 @@ public class BackendTests {
 		Assertions.assertTrue(normalizedOutput.contains("You must load a file before any songs can be printed"));
 
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 		} catch (IOException e) {
 			System.out.println(e);
 		}
@@ -222,7 +222,7 @@ public class BackendTests {
 
 		// test the readData method
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 			if(!(tree.size() == 600)){
 				Assertions.assertFalse(true);
 			}
@@ -260,7 +260,7 @@ public class BackendTests {
 		ArrayList<String> titles = new ArrayList<>();
 
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 		} catch (IOException e) {
 			System.out.println(e);
 		}
@@ -296,7 +296,7 @@ public class BackendTests {
 		ArrayList<String> titles = new ArrayList<>();
 
 		try {
-			backend.readData("songs.csv");
+			backend.readData("src\\songs.csv");
 		} catch (IOException e) {
 			System.out.println(e);
 		}
