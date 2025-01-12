@@ -1,13 +1,11 @@
-package iSongly;
-
 import java.util.List;
 import java.io.IOException;
 /**
- * BackendInterface - CS400 Project 1: iSongly
+ * BackendInterface - iSongly
  */
 public interface BackendInterface {
 
-    //public Backend(IterableSortedCollection<Song> tree)
+    // public Backend(IterableSortedCollection<Song> tree)
     // Your constructor must have the signature above. All methods below must
     // use the provided tree to store, sort, and iterate through songs. This
     // will enable you to create some tests that use the placeholder tree, and

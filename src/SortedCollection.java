@@ -1,5 +1,3 @@
-package iSongly;
-
 /**
  * This interface defines an ADT for data structures that support storing a 
  * collection of comparable values in their natural ordering.

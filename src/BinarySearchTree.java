@@ -1,5 +1,3 @@
-package iSongly;
-
 public class BinarySearchTree <T extends Comparable<T>> implements SortedCollection<T> {
 
     // creates the root of the BST with no value until the insert() method is run

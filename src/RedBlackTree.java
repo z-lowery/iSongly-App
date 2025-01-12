@@ -1,5 +1,3 @@
-package iSongly;
-
 public class RedBlackTree<T extends Comparable<T>> extends BSTRotation<T> {
 
     RedBlackTree(){

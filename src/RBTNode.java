@@ -1,5 +1,3 @@
-package iSongly;
-
 /**
  * This class represents a node in a RedBlackTree and inherits from BSTNode.
  */

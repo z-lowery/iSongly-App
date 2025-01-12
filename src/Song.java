@@ -1,5 +1,3 @@
-package iSongly;
-
 import java.util.Comparator;
 
 /**
@@ -10,7 +8,6 @@ import java.util.Comparator;
 public class Song implements Comparable<Song> {
 
     // fields
-    
     private String title;
     private String artist;
     private String genres;
@@ -23,7 +20,6 @@ public class Song implements Comparable<Song> {
     private Comparator<Song> comparator;
     
     // constructors
-    
     public Song(String title,
 		String artist,
 		String genre,
@@ -68,7 +64,6 @@ public class Song implements Comparable<Song> {
     }
 
     // accessors
-    
     public String getTitle() { return title; } 
     public String getArtist() { return artist; } 
     public String getGenres() { return genres; } 
@@ -80,7 +75,6 @@ public class Song implements Comparable<Song> {
     public int getLiveness() { return liveness; }
 
     // comparisons
-    
     public int compareTo(Song other) {
 	if(this.comparator != null)
 	    return this.comparator.compare(this,other);

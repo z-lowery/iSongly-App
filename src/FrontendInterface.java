@@ -1,9 +1,5 @@
-package iSongly;
-
-import java.util.Scanner;
-
 /**
- * FrontendInterface - CS400 Project 1: iSongly
+ * FrontendInterface - iSongly
  */
 public interface FrontendInterface {
 

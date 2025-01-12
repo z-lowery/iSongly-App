@@ -1,5 +1,3 @@
-package iSongly;
-
 import java.util.Scanner;
 
 /**

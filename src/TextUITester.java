@@ -1,5 +1,3 @@
-package iSongly;
-
 import java.io.OutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
