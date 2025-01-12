@@ -184,7 +184,7 @@ public class BackendTests {
 	 */
 	@Test
 	public void backend_IntegrationTest4(){
-		TextUITester tester = new TextUITester("L\nsongs.csv\ng\n-5\n100\nf\n120\nd\nq");
+		TextUITester tester = new TextUITester("L\nsrc\\songs.csv\ng\n-5\n100\nf\n120\nd\nq");
 		IterableSortedCollection<Song> tree = new IterableRedBlackTree<>();
 		BackendInterface backend = new Backend(tree);
 		Frontend frontend = new Frontend(new Scanner(System.in), backend);

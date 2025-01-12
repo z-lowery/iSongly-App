@@ -214,7 +214,7 @@ public class IterableRedBlackTree<T extends Comparable<T>>
      */
     @Test
     public void IterableRBTTest03() {
-        RedBlackTree<Integer> tree = new RedBlackTree<>(); // initializes new tree
+        RedBlackTree<Integer> tree = newIntRedBlackTree(); // initializes new tree
         RBTIterator<Integer> iterator = new RBTIterator<>(tree.root, null, 22); // initializes new iterator and builds stack
         String result = ""; // stores result of poping all values between min and max from the built stack
 
