@@ -3,14 +3,7 @@ import java.io.IOException;
 /**
  * BackendInterface - iSongly
  */
-public interface BackendInterface {
-
-    // public Backend(IterableSortedCollection<Song> tree)
-    // Your constructor must have the signature above. All methods below must
-    // use the provided tree to store, sort, and iterate through songs. This
-    // will enable you to create some tests that use the placeholder tree, and
-    // others that make use of a working tree.
-
+public interface BackendInterface {}
     /**
      * Loads data from the .csv file referenced by filename.  You can rely
      * on the exact headers found in the provided songs.csv, but you should

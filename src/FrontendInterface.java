@@ -2,13 +2,6 @@
  * FrontendInterface - iSongly
  */
 public interface FrontendInterface {
-
-    //public Frontend(Scanner in, BackendInterface backend)
-    // Your constructor must have the signature above. All methods below must
-    // rely only on the provided Scanner to read input from the user, and only
-    // on the provided BackendInterface to compute the results of different
-    // user queries by calling the methods of BackendInterface.
-
     /**
      * Repeatedly gives the user an opportunity to issue new commands until
      * they select Q to quit. Uses the scanner passed to the constructor to

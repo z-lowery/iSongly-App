@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * This is a placeholder for the fully working Tree that will be developed in a
- * future week.  It is designed to help develop and test the functionality of
- * Backend code for Project1.  Note the limitations described below.
+ * This is a placeholder for the fully working Tree used for testing before
+ * a final implmentation was developed It is designed to help develop and 
+ * test the functionality ofBackend code.  Note the limitations described below.
  */
 public class Tree_Placeholder
     implements IterableSortedCollection<Song> {

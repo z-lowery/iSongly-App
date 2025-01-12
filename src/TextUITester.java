@@ -7,11 +7,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * This class can be used to test text based user interactions by 1) specifying
- * a String of text input (that will be fed to System.in as if entered by the 
- * user), and then 2) capturing the output printed to System.out and 
+ * This class can be used to test text based user interactions by 
+ * 1) specifyinga String of text input (that will be fed to System.in 
+ * as if entered by the user), and then 
+ * 
+ * 2) capturing the output printed to System.out and 
  * System.err in String form so that it can be compared to the expect output.
- * @date 2024.09
  */
 public class TextUITester {
 
