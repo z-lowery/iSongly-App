@@ -3,7 +3,7 @@ import java.io.IOException;
 /**
  * BackendInterface - iSongly
  */
-public interface BackendInterface {}
+public interface BackendInterface {
     /**
      * Loads data from the .csv file referenced by filename.  You can rely
      * on the exact headers found in the provided songs.csv, but you should
